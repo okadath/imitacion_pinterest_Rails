@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+	<div class="col-md-3">
+    <div class="thumbnail">
+<p>
+  <strong>Nombre:</strong>
+  <%= @pin.name %>
+</p>
+
+
+  <strong>Photo:</strong>
+  <%= image_tag(@pin.photo, :class =>'img-responsive')  %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @pin.description %>
+</p>
+
+<%= link_to 'Edit', edit_pin_path(@pin) %> |
+<%= link_to 'Back', pins_path %>
+
+<%= link_to "Mas pins del mismo usuario", pinsof_path(@pin.user.id) %>
+</div>
+</div>
