@@ -1,24 +1,7 @@
-# README
+Plataforma de imagenes estilo Pinterest
+==========
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Plataforma CRUDs creada con Ruby on Rails v5.0 para la carga de imagenes 
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![imagen ejemplo](https://github.com/okadath/imitiacion_pinterest_rails/blob/master/screen.png)
